@@ -106,20 +106,22 @@ export default function HomePage() {
               className="object-contain"
             />
           </div>
-          <div className="absolute bottom-32 left-20 w-20 h-20 opacity-10">
+          <div className="absolute bottom-32 left-20">
             <Image
-              src="/placeholder.svg?height=80&width=80"
+              src="/cardamom.png"
               alt="Cardamom plant"
-              fill
-              className="object-contain"
+              height={200}
+              width={200}
+              className="h-[20rem] w-[20rem] object-contain rounded-br-lg"
             />
           </div>
-          <div className="absolute bottom-20 right-10 w-14 h-14 opacity-20">
+          <div className="absolute bottom-0 right-0">
             <Image
-              src="/placeholder.svg?height=56&width=56"
+              src="/cardamom1.png"
               alt="Cardamom flower"
-              fill
-              className="object-contain"
+              height={200}
+              width={200}
+              className="h-[20rem] w-[20rem] object-contain"
             />
           </div>
         </div>
